@@ -1,6 +1,6 @@
 {
-  "name": "esn-chat-client",
-  "version": "0.0.0",
+  "name": "@linagora/esn-chat-client",
+  "version": "1.0.0",
   "description": "Chat Client for OpenPaaS linagora.esn.chat Module",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://ci.open-paas.org/stash/scm/or/esn-chat-client.git"
+    "url": "https://github.com/linagora/esn-chat-client"
   },
   "keywords": [
     "chat",
