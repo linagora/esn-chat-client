@@ -5,13 +5,13 @@ Client library for linagora.esn.chat module.
 ## Install
 
 ```
-npm install esn-chat-client
+npm install @linagora/esn-chat-client
 ```
 
 ## Usage
 
 ```
-const WebsocketClient = require('esn-chat-client').WebsocketClient;
+const WebsocketClient = require('@linagora/esn-chat-client').WebsocketClient;
 
 const client = new WebsocketClient({token, url, userId}));
 
@@ -25,7 +25,7 @@ client.connect();
 or if you do not have your token or userId
 
 ```
-const factory = require('esn-chat-client').factory;
+const factory = require('@linagora/esn-chat-client').factory;
 
 factory.get({url, username, password}).then(client => {
   client.on('message', message => {
