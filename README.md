@@ -1,3 +1,5 @@
+![Archived](https://img.shields.io/badge/Current_Status-archived-blue?style=flat)
+
 # esn-chat-client
 
 Client library for linagora.esn.chat module.
